@@ -1,5 +1,14 @@
 body {
-    background: linear-gradient(#de6262, #fc00ff, #ffdde1);
+pointer-events: auto !important;
+background-size: 100% !important;
+opacity: 0.90 !important;
+background-position: 0 0 !important;
+background-image: url(2825710.gif);
+content: '';
+position: absolute;
+z-index: 999;
+width: 100%;
+background-repeat: no-repeat;
     font: normal 20pt Arial;
 
 
@@ -12,12 +21,12 @@ header {
 }
 
 section {
-    background: whitesmoke;
+    background: rgb(10, 137, 187);
     border-radius: 100px;
     padding: 200px;
     width: 500px;
     margin: auto;
-    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.363);
+    box-shadow: 5px 5px 10px rgba(113, 3, 128, 0.363);
 }
 select#flista{
     width: 150px;
